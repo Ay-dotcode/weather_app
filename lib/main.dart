@@ -24,9 +24,14 @@ class MainApp extends StatelessWidget {
               child: const HomeScreen(),
             );
           } else {
-            return const Scaffold(
-              body: Center(
-                child: CircularProgressIndicator(),
+            return Scaffold(
+              body: Container(
+                height: double.infinity,
+                width: double.infinity,
+                color: Colors.black,
+                child: const Center(
+                  child: CircularProgressIndicator(),
+                ),
               ),
             );
           }
