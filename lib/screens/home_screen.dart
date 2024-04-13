@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.indigoAccent,
+                    color: Color.fromARGB(255, 11, 0, 216),
                   ),
                 ),
               ),
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.indigoAccent,
+                    color: Color.fromARGB(255, 11, 0, 216),
                   ),
                 ),
               ),
