@@ -6,7 +6,7 @@ String getGreeting(DateTime? dateTime) {
       return "Good afternoon";
     case > 18 && <= 22:
       return "Good evening";
-    case > 22 && < 2:
+    case > 22 || < 2:
       return "Good night";
     default:
       return "Hello";
